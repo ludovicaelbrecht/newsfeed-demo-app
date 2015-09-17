@@ -1,0 +1,46 @@
+<div data-role="view" data-title="Form" data-layout="main" data-model="app.formView2" data-show="app.formView2.onShow" data-after-show="app.formView2.afterShow">
+    <div id="formView2Model" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+                    <label>url
+                        <input data-bind="value: formView2Model.fields.url" placeholder="http://www.example.com" type="url">
+                    </label>
+                </li>
+                <li>
+                    <label>Search
+                        <input data-bind="value: formView2Model.fields.search" placeholder="Search" type="search">
+                    </label>
+                </li>
+                <li>
+                    <label>Switch
+                        <input data-bind="value: formView2Model.fields.switch" data-role="switch">
+                    </label>
+                </li>
+                <li>
+                    <label>Label
+                        <select data-bind="value: formView2Model.fields.dropdownlist" data-role="dropdownlist">
+                            <option value="First Option">First Option</option>
+                            <option value="Second Option">Second Option</option>
+                            <option value="Third Option">Third Option</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label>Date
+                        <input data-bind="value: formView2Model.fields.date" type="date">
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: formView2Model.cancel }">Cancel</a>
+                <a class="primary" data-role="button" data-bind="events: { click: formView2Model.submit }">Confirm</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_formView2Model -->
+        <!-- END_CUSTOM_CODE_formView2Model -->
+    </div>
+    <!-- START_CUSTOM_CODE_formView2 -->
+    <!-- END_CUSTOM_CODE_formView2 -->
+</div>
