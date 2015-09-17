@@ -1,0 +1,48 @@
+{
+  "ProjectName": "Vocalcom Newsfeed Hybrid",
+  "ProjectGuid": "9face698-8dbc-479f-b977-a66046ea43d3",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.VocalcomNewsfeedHybrid",
+  "DisplayName": "Vocalcom Newsfeed Hybrid",
+  "Author": "",
+  "Description": "Vocalcom Newsfeed Hybrid",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{020f4ed8-a83f-4246-9d1b-7af70c9b88d8}",
+  "WP8ProductID": "{35fe3d64-0cc8-49fc-a4d9-b8ab242eb13d}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.VocalcomNewsfeedHybrid",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.network-information"
+  ]
+}
